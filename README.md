@@ -1,4 +1,4 @@
-# main
+# Aegis402
 
 Aegis402 is a local security middleware for x402 payment flows.
 
