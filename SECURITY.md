@@ -1,6 +1,6 @@
 # Security
 
-main v0.1 is an experimental implementation. It has not undergone an independent security audit. It must not be used to protect production payment flows or real funds.
+Aegis402 v0.1 is an experimental implementation. It has not undergone an independent security audit. It must not be used to protect production payment flows or real funds.
 
 ## Implemented properties
 
