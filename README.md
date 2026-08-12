@@ -1,6 +1,6 @@
 # main
 
-main is a local security middleware for x402 payment flows.
+Aegis402 is a local security middleware for x402 payment flows.
 
 ## Status
 
@@ -10,7 +10,7 @@ The default adapter is a deterministic local adapter intended for tests and atta
 
 ## Scope
 
-main evaluates payment state before resource release. The prototype implements checks for:
+Aegis402 evaluates payment state before resource release. The prototype implements checks for:
 
 - request and resource binding
 - payment policy
