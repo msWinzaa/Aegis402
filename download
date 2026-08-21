@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+env/
+.env
+*.db
+*.sqlite
+*.jsonl
+aegis_node_key.pem
+*.log
+.DS_Store

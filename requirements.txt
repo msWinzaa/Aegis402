@@ -1,0 +1,10 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+pytest>=8.0
+httpx>=0.27
+x402[httpx]>=2.8,<2.9
+
+cryptography>=43
+
+web3>=7.0,<8

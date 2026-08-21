@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: aegis402-demo
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn aegis402.app:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/status
+    autoDeploy: false
+    disk:
+      name: aegis-data
+      mountPath: /var/data
+      sizeGB: 1
