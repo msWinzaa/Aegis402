@@ -1,6 +1,6 @@
-# Aegis402 Dashboard WT Add-on
+# Aegis402 DashboardWT Add-on
 
-A self-contained presentation-facing dashboard add-on.
+A self-contained dashboard walkthrough add-on.
 
 - `index.html`: Explainer, Consumer, Technician, and Administrator views.
 - Consumer: connected-wallet presentation state; ALLOW, BLOCK, and HOLD walkthroughs.
