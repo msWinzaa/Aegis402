@@ -150,7 +150,8 @@ def dashboard():return FileResponse(Path(__file__).resolve().parent.parent/'dash
 @app.get('/index2', include_in_schema=False)
 def index2():
     return FileResponse(
-        Path(_file_).resolve().parent.parent / 'dashboardwt' / 'index2.html'
+        Path(_file_).resolve().parent.parent
+        / 'dashboardwt' / 'index2.html'
     )
 def dashboard_old():return FileResponse(Path(__file__).resolve().parent.parent/'dashboard'/'index.html')
 @app.get('/dashboardwt',include_in_schema=False)
