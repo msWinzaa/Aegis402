@@ -146,13 +146,9 @@ def local_requirements(req):return PaymentRequirements(scheme=req.get('scheme','
 def root():return {'name':'Aegis402','version':'1.0.0','status':'payment security agent','dashboard':'/dashboard','engineering':'/engineering','admin':'/admin','demo':'/demo','shop':'/shop','explainer':'/explainer','docs':'/docs'}
 @app.get('/dashboard',include_in_schema=False)
 def dashboard():return FileResponse(Path(__file__).resolve().parent.parent/'dashboardwt'/'dashboard.html')
+@app.get('/index2',include_in_schema=False)
+def index2():return FileResponse(Path(__file__).resolve().parent.parent/'dashboardwt'/'index2.html')
 @app.get('/dashboard-old',include_in_schema=False)
-@app.get('/index2', include_in_schema=False)
-def index2():
-    return FileResponse(
-        Path(_file_).resolve().parent.parent
-        / 'dashboardwt' / 'index2.html'
-    )
 def dashboard_old():return FileResponse(Path(__file__).resolve().parent.parent/'dashboard'/'index.html')
 @app.get('/dashboardwt',include_in_schema=False)
 def dashboardwt():return FileResponse(Path(__file__).resolve().parent.parent/'dashboardwt'/'dashboard.html')
